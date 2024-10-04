@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Atlas_UI_InGameSkill
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 16
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 50
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 51
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 0.5
+    packables:
+    - {fileID: 102900000, guid: 34a71a405a1721149b7f6d73ef9eb00f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b02a0822b3c6cf44fb33836eb9cd6de7, type: 3}
+  - {fileID: 21300000, guid: 49370cc416447bc40b5437e4de7900d9, type: 3}
+  - {fileID: 21300000, guid: ee500115ee008ec4abc014d1717b1d98, type: 3}
+  - {fileID: 21300000, guid: f0f482d61b31f1f44b8a615bca6afa03, type: 3}
+  - {fileID: 21300000, guid: 6095b13786533a84696bb5d9c2171b96, type: 3}
+  - {fileID: 21300000, guid: 2880e3484a14d5546bd5145411aaece0, type: 3}
+  - {fileID: 21300000, guid: d4aa7dd9e9a8e574b9d9b55513492772, type: 3}
+  - {fileID: 21300000, guid: 96137f2aee981474db5a88a248c1f2ef, type: 3}
+  - {fileID: 21300000, guid: 9dfb524a5aa0d464981b3185530fb5eb, type: 3}
+  - {fileID: 21300000, guid: 9098d87cc9d0b5348845c06aaa8f79b0, type: 3}
+  - {fileID: 21300000, guid: 16e19f0d002cf464eac27a1bbbe7e0d7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Icon_Skill_004
+  - Icon_Skill_003
+  - Icon_Skill_009
+  - Icon_Skill_002
+  - Icon_Skill_001
+  - Icon_Skill_005
+  - Icon_Skill_006
+  - Icon_Skill_007
+  - Icon_Skill_011
+  - Icon_Skill_010
+  - Icon_Skill_008
+  m_RenderDataMap: {}
+  m_Tag: Atlas_UI_InGameSkill
+  m_IsVariant: 0

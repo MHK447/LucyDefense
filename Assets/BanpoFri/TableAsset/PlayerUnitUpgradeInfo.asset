@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a0acff4e3c84602b95fa1f9e2de487, type: 3}
+  m_Name: PlayerUnitUpgradeInfo
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 11
+  - 12
+  - 13
+  - 14
+  - 16
+  mSecondKey: []
+  mDataList:
+  - _upgrade_idx: 1
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_1
+    _desc_type: str_labs_upgrade_desc_5
+    _base_value: 100
+    _value_increase: 5
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 1
+  - _upgrade_idx: 2
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_2
+    _desc_type: str_labs_upgrade_desc_5
+    _base_value: 10
+    _value_increase: 5
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 1
+  - _upgrade_idx: 3
+    _upgrade_type: 2
+    _name: str_labs_upgrade_name_2_3
+    _desc_type: str_labs_upgrade_desc_5
+    _base_value: 100
+    _value_increase: 5
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 1
+  - _upgrade_idx: 4
+    _upgrade_type: 2
+    _name: str_labs_upgrade_name_2_4
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 0
+    _value_increase: 100
+    _base_cost: 3180
+    _cost_increase_1: 150
+    _cost_increase_2: 138
+    _order: 1
+  - _upgrade_idx: 5
+    _upgrade_type: 3
+    _name: str_labs_upgrade_name_3_5
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 100
+    _value_increase: 2
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 1
+  - _upgrade_idx: 6
+    _upgrade_type: 3
+    _name: str_labs_upgrade_name_3_6
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 100
+    _value_increase: 2
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 1
+  - _upgrade_idx: 7
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_7
+    _desc_type: str_labs_upgrade_desc_2
+    _base_value: 0
+    _value_increase: 25
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 2
+  - _upgrade_idx: 8
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_8
+    _desc_type: str_labs_upgrade_desc_4
+    _base_value: 100
+    _value_increase: 2
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 2
+  - _upgrade_idx: 9
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_9
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 100
+    _value_increase: 2
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 3
+  - _upgrade_idx: 11
+    _upgrade_type: 2
+    _name: str_labs_upgrade_name_2_11
+    _desc_type: str_labs_upgrade_desc_2
+    _base_value: 0
+    _value_increase: 5
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 2
+  - _upgrade_idx: 12
+    _upgrade_type: 3
+    _name: str_labs_upgrade_name_3_12
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 0
+    _value_increase: 100
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 2
+  - _upgrade_idx: 13
+    _upgrade_type: 3
+    _name: str_labs_upgrade_name_3_13
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 0
+    _value_increase: 400
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 2
+  - _upgrade_idx: 14
+    _upgrade_type: 3
+    _name: str_labs_upgrade_name_3_14
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 0
+    _value_increase: 100
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 3
+  - _upgrade_idx: 16
+    _upgrade_type: 1
+    _name: str_labs_upgrade_name_1_16
+    _desc_type: str_labs_upgrade_desc_1
+    _base_value: 100
+    _value_increase: 2
+    _base_cost: 1000
+    _cost_increase_1: 150
+    _cost_increase_2: 110
+    _order: 3

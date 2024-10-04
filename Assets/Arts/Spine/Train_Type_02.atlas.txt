@@ -1,0 +1,13 @@
+Train_Type_02.png
+size:128,128
+filter:Linear,Linear
+pma:true
+Arrow
+bounds:64,26,41,47
+Rectangle
+bounds:2,64,60,60
+SawBlade_Bridge
+bounds:64,75,40,49
+offsets:1,0,42,49
+Wood
+bounds:2,2,60,60

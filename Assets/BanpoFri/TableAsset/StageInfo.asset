@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a32311b2914b491999996fccacdaa9c, type: 3}
+  m_Name: StageInfo
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  mSecondKey: []
+  mDataList:
+  - _stage_idx: 1
+    _stage_prefab: Stage_01
+    _start_hp: 10
+    _planet_img: Stage_01
+  - _stage_idx: 2
+    _stage_prefab: Stage_02
+    _start_hp: 3
+    _planet_img: Stage_02
+  - _stage_idx: 3
+    _stage_prefab: Stage_03
+    _start_hp: 10
+    _planet_img: Stage_03
+  - _stage_idx: 4
+    _stage_prefab: Stage_04
+    _start_hp: 3
+    _planet_img: Stage_04
+  - _stage_idx: 5
+    _stage_prefab: Stage_05
+    _start_hp: 10
+    _planet_img: Stage_05
+  - _stage_idx: 6
+    _stage_prefab: Stage_06
+    _start_hp: 3
+    _planet_img: Stage_06

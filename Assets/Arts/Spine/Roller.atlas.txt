@@ -1,0 +1,12 @@
+Roller.png
+size:256,256
+filter:Linear,Linear
+pma:true
+Circle
+bounds:2,2,100,101
+Roller_Line_01
+bounds:129,167,8,80
+Roller_Line_02
+bounds:104,23,8,80
+Roller_Top
+bounds:2,105,125,142

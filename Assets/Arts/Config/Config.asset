@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6470b1acb3b482c830d432f3c9fc74, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  _textColorDefines:
+  - key_string: TextColor_White
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key_string: TextColor_Black
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - key_string: TextColor_Navy
+    color: {r: 0, g: 0.18431373, b: 0.28235295, a: 1}
+  - key_string: TextColor_Red
+    color: {r: 1, g: 0.29803923, b: 0.29803923, a: 1}
+  - key_string: TextColor_Yellow
+    color: {r: 1, g: 0.9607843, b: 0.5254902, a: 1}
+  - key_string: TextColor_Green
+    color: {r: 0, g: 0.6666667, b: 0.32941177, a: 1}
+  - key_string: TextColor_Blue
+    color: {r: 0.21960784, g: 0.63529414, b: 0.85490197, a: 1}
+  - key_string: TextColor_Purple
+    color: {r: 0.21568628, g: 0.09411765, b: 0.41960785, a: 1}
+  - key_string: TextColor_Popup_Title
+    color: {r: 0, g: 0.5647059, b: 0.9254902, a: 1}
+  - key_string: TextColor_Popup_Desc_Dark
+    color: {r: 0.14204343, g: 0.16758114, b: 0.5283019, a: 1}
+  - key_string: TextColor_Popup_Desc_Normal
+    color: {r: 0.19607843, g: 0.22745098, b: 0.67058825, a: 1}
+  - key_string: TextColor_Btn_Cash
+    color: {r: 0.003921569, g: 0.17254902, b: 0.2784314, a: 1}
+  - key_string: TextColor_Btn_Yes
+    color: {r: 0.003921569, g: 0.14901961, b: 0.29803923, a: 1}
+  - key_string: TextColor_Btn_Point
+    color: {r: 0.3254902, g: 0.023529412, b: 0, a: 1}
+  - key_string: TextColor_Btn_No
+    color: {r: 0.2509804, g: 0, b: 0, a: 1}
+  - key_string: TextColor_Btn_Vertical
+    color: {r: 0.003921569, g: 0.14901961, b: 0.29803923, a: 1}
+  - key_string: TextColor_Package_Starter
+    color: {r: 0.5254902, g: 1, b: 0.62352943, a: 1}
+  - key_string: TextColor_Package_Epic
+    color: {r: 1, g: 0.47843137, b: 1, a: 1}
+  - key_string: TextColor_Package_Speed
+    color: {r: 1, g: 0.9490196, b: 0.5176471, a: 1}
+  - key_string: TextColor_Package_NoAds
+    color: {r: 0.3529412, g: 1, b: 0.972549, a: 1}
+  - key_string: Default_DarkRed
+    color: {r: 0.23921569, g: 0, b: 0.011764706, a: 1}
+  - key_string: TextColor_Unit_Grade_Normal
+    color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+  - key_string: TextColor_Unit_Grade_Rare
+    color: {r: 0, g: 0.10007763, b: 1, a: 1}
+  - key_string: TextColor_Unit_Grade_Epic
+    color: {r: 1, g: 0, b: 0.8291087, a: 1}
+  - key_string: TextColor_Unit_Grade_Legend
+    color: {r: 1, g: 0.9964251, b: 0, a: 1}
+  _eventTextColorDefines: []
+  _imageColorDefines:
+  - key_string: BgColor_White
+    color: {r: 0.972549, g: 0.9882353, b: 1, a: 1}
+  - key_string: BgColor_HUDBg
+    color: {r: 0.02745098, g: 0.34509805, b: 0.50980395, a: 1}
+  - key_string: BgColor_SkyBlue
+    color: {r: 0.8392157, g: 0.9254902, b: 0.98039216, a: 1}
+  - key_string: BgColor_Blue
+    color: {r: 0.21960784, g: 0.63529414, b: 0.85490197, a: 1}
+  - key_string: BgColor_Black
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - key_string: BgColor_Red
+    color: {r: 0.9843137, g: 0.47843137, b: 0.47058824, a: 1}
+  - key_string: BlockColor_01
+    color: {r: 1, g: 0.7210781, b: 0.23113209, a: 1}
+  - key_string: BlockColor_02
+    color: {r: 0.17528482, g: 0.9528302, b: 0.7411424, a: 1}
+  - key_string: BlockColor_03
+    color: {r: 0.7466525, g: 0.4764151, b: 1, a: 1}
+  - key_string: BlockColor_04
+    color: {r: 0.3270737, g: 0.9245283, b: 0.38185564, a: 1}
+  - key_string: BlockColor_05
+    color: {r: 1, g: 0.77930015, b: 0.2971698, a: 1}
+  - key_string: BlockColor_Gem
+    color: {r: 0.9176471, g: 0.34901962, b: 0.627451, a: 1}
+  - key_string: GroundColor_01
+    color: {r: 0.67058825, g: 0.13725491, b: 0.06666667, a: 1}
+  - key_string: WallColor_01
+    color: {r: 0.5849056, g: 0.10978626, b: 0.046902817, a: 1}
+  - key_string: LineColor_01
+    color: {r: 0.5, g: 0.064643286, b: 0.0070754588, a: 1}
+  - key_string: TopGroundColor_01
+    color: {r: 0.9339623, g: 0.24723265, b: 0.15419187, a: 1}
+  - key_string: DecoTopColor_01
+    color: {r: 1, g: 0.16509432, b: 0.17491698, a: 0.21176471}
+  - key_string: DecoColor_01
+    color: {r: 1, g: 0, b: 0, a: 0.23529412}
+  - key_string: GroundColor_02
+    color: {r: 0.4292827, g: 0.20140618, b: 0.5849056, a: 1}
+  - key_string: WallColor_02
+    color: {r: 0.38598952, g: 0.1522784, b: 0.5471698, a: 1}
+  - key_string: LineColor_02
+    color: {r: 0.30336982, g: 0.10666606, b: 0.4433962, a: 1}
+  - key_string: TopGroundColor_02
+    color: {r: 0.5181619, g: 0.18516374, b: 0.6886792, a: 1}
+  - key_string: DecoTopColor_02
+    color: {r: 0.9529412, g: 0, b: 1, a: 0.21176471}
+  - key_string: DecoColor_02
+    color: {r: 0.41496372, g: 0, b: 1, a: 0.23529412}
+  - key_string: GroundColor_03
+    color: {r: 0.28323582, g: 0.23642758, b: 0.31132078, a: 1}
+  - key_string: WallColor_03
+    color: {r: 0.33962262, g: 0.19330722, b: 0.120149516, a: 1}
+  - key_string: LineColor_03
+    color: {r: 0.2924528, g: 0.15297607, b: 0.08690815, a: 1}
+  - key_string: TopGroundColor_03
+    color: {r: 0.6792453, g: 0.42475715, b: 0.23389105, a: 1}
+  - key_string: DecoTopColor_03
+    color: {r: 0.5660378, g: 0.16990843, b: 0.15752938, a: 0.21176471}
+  - key_string: DecoColor_03
+    color: {r: 0.103773594, g: 0.1013261, b: 0.1013261, a: 0.23529412}
+  - key_string: GroundColor_04
+    color: {r: 0.078097194, g: 0.3679245, b: 0.2844894, a: 1}
+  - key_string: WallColor_04
+    color: {r: 0.18307225, g: 0.27216092, b: 0.3207547, a: 1}
+  - key_string: LineColor_04
+    color: {r: 0.100925595, g: 0.20352438, b: 0.26415092, a: 1}
+  - key_string: TopGroundColor_04
+    color: {r: 0.009077947, g: 0.6415094, b: 0.5109286, a: 1}
+  - key_string: DecoTopColor_04
+    color: {r: 0.05899353, g: 0.8666667, b: 0, a: 0.21176471}
+  - key_string: DecoColor_04
+    color: {r: 0.6117647, g: 0.14509805, b: 0, a: 0.23529412}
+  - key_string: GroundColor_05
+    color: {r: 0.4528302, g: 0.17176318, b: 0, a: 1}
+  - key_string: WallColor_05
+    color: {r: 0.3679245, g: 0.16834283, b: 0.18569775, a: 1}
+  - key_string: LineColor_05
+    color: {r: 0.3301887, g: 0.14484692, b: 0.15938348, a: 1}
+  - key_string: TopGroundColor_05
+    color: {r: 0.6792453, g: 0.29644513, b: 0.06087574, a: 1}
+  - key_string: DecoTopColor_05
+    color: {r: 0.8666667, g: 0.007843138, b: 0, a: 0.21176471}
+  - key_string: DecoColor_05
+    color: {r: 0.8, g: 0.1882353, b: 0, a: 0.3529412}
+  - key_string: Unit_Grade_1
+    color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0.50980395}
+  - key_string: Unit_Grade_2
+    color: {r: 0, g: 0.21631074, b: 1, a: 0.5058824}
+  - key_string: Unit_Grade_3
+    color: {r: 0.9926069, g: 1, b: 0, a: 0.5058824}
+  _eventImgaeColorDefines: []
+  SkeletonGraphicMat: {fileID: 0}
+  DisableSpriteMat: {fileID: 0}
+  EnableSpriteMat: {fileID: 0}
+  ImgAddtiveMat: {fileID: 0}
+  DynamicAtlas: {fileID: 0}
+  DynamicShopAtlas: {fileID: 0}
+  ItemCardAtlas: {fileID: 0}
+  CommonAtlas: {fileID: 4343727234628468602, guid: 3b4b5bce2a9298e4abf4cc657ab8d55a, type: 2}
+  facilityAtlas: {fileID: 0}
+  UiIconAtlas: {fileID: 0}
+  UiBgAtlas: {fileID: 0}
+  InGameAtlas: {fileID: 0}
+  PlanetAtlas: {fileID: 0}
+  IconImgAtlas: {fileID: 4343727234628468602, guid: 6d74120d3026444549baed1a9b93726e, type: 2}
+  UnitImgAtlas: {fileID: 4343727234628468602, guid: e4eeb7b3b02ad46fea1bb8d4d1181edf, type: 2}
+  SkillAtlas: {fileID: 4343727234628468602, guid: 1c93609e065d34362968220ce99920c7, type: 2}
+  InGameSkillAtlas: {fileID: 4343727234628468602, guid: f1c6e32ace6b24de0a7a840e65e42524, type: 2}

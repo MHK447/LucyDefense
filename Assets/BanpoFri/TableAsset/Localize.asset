@@ -1,0 +1,9740 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1efbd8d0fe74dcdb2bf5806ca18b55, type: 3}
+  m_Name: Localize
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - str_stage_select_num
+  - str_stage_unlock_cond
+  - str_ingame_stage_fail
+  - str_ingame_stage_clear
+  - str_stage_highest
+  - str_ingame_popup_home
+  - str_ingame_wave_num
+  - str_ingame_clear_desc
+  - str_ingame_giveup_desc
+  - str_inupgrade_unit_max
+  - str_inupgrade_name_add
+  - str_inupgrade_name_power
+  - str_inupgrade_name_health
+  - str_inupgrade_name_atkspd
+  - str_inupgrade_unit_unlock
+  - str_army_name_1
+  - str_army_name_2
+  - str_army_name_3
+  - str_army_name_4
+  - str_army_name_5
+  - str_ads_wait
+  - str_game_speed_normal
+  - str_game_speed_fast
+  - str_labs_title
+  - str_labs_unlock_atk
+  - str_labs_upgrade_name_1_1
+  - str_labs_upgrade_name_1_2
+  - str_labs_upgrade_name_1_7
+  - str_labs_upgrade_name_1_8
+  - str_labs_upgrade_name_1_9
+  - str_labs_upgrade_name_1_10
+  - str_labs_upgrade_name_2_3
+  - str_labs_upgrade_name_2_4
+  - str_labs_upgrade_name_2_11
+  - str_labs_upgrade_name_2_12
+  - str_labs_upgrade_name_3_5
+  - str_labs_upgrade_name_3_6
+  - str_labs_upgrade_name_3_14
+  - str_labs_upgrade_name_3_15
+  - str_labs_upgrade_name_3_13
+  - str_card_new
+  - str_card_info_multiple
+  - str_card_info_percent
+  - str_card_info_add
+  - str_popup_return_title
+  - str_popup_return_desc
+  - str_popup_return_wave
+  - str_popup_return_resume
+  - str_popup_return_no
+  - str_shop_title
+  - str_card_buy
+  - str_labs_upgrade_name_1_16
+  - str_labs_upgrade_name_3_17
+  - str_shop_title_pakage
+  - str_labs_upgrade_name_3_1_1
+  - str_labs_upgrade_name_3_2_1
+  - str_shop_name_package_101
+  - str_shop_name_package_102
+  - str_shop_name_package_103
+  - str_shop_name_package_104
+  - str_shop_desc_package_101
+  - str_shop_desc_package_102
+  - str_shop_desc_package_103
+  - str_shop_desc_package_104
+  - str_card_levelup_need
+  - str_card_activated
+  - str_card_inventory
+  - str_shop_name_currency_ticket
+  - str_shop_name_currency_gem
+  - str_shop_accent_value
+  - str_shop_product_efficiency
+  - str_popup_option_vibrate
+  - str_popup_option_bgm
+  - str_popup_option_sfx
+  - str_popup_option_restore
+  - str_shop_reward_ads_time
+  - str_slot_unlock
+  - str_popup_option_title
+  - str_popup_option_on
+  - str_popup_option_off
+  - str_stage_start
+  - str_lobby
+  - str_ingame_quit
+  - str_ingame_continue
+  - str_labs_type_atk
+  - str_labs_type_def
+  - str_labs_type_util
+  - str_ingame_clear_title
+  - str_ingame_fail_title
+  - str_cards
+  - str_popup_title_tutorial
+  - str_popup_tutorial_btn
+  - str_labs_upgrade_desc_1
+  - str_labs_upgrade_desc_2
+  - str_labs_upgrade_desc_3
+  - str_labs_upgrade_desc_4
+  - str_labs_upgrade_desc_5
+  - str_ingame_giveup_title
+  - str_time_hour
+  - str_time_minute
+  - str_time_second
+  - str_card_desc_1_1
+  - str_card_desc_1_2
+  - str_card_desc_1_7
+  - str_card_desc_1_8
+  - str_card_desc_1_9
+  - str_card_desc_1_10
+  - str_card_desc_2_3
+  - str_card_desc_2_4
+  - str_card_desc_2_11
+  - str_card_desc_2_12
+  - str_card_desc_3_1_1
+  - str_card_desc_3_1_2
+  - str_card_desc_3_13
+  - str_card_desc_1_16
+  - str_card_desc_3_17
+  - str_card_desc_max
+  - str_card_desc_target
+  - str_card_desc_target_all
+  - str_card_desc_target_atk
+  - str_card_desc_target_close
+  - str_card_desc_target_long
+  - str_card_desc_target_cash
+  - str_card_desc_target_mineral
+  - str_ingame_new_unit_desc
+  - str_ingame_unit_choose_desc
+  - str_army_desc_1
+  - str_army_desc_2
+  - str_army_desc_3
+  - str_army_desc_4
+  - str_army_desc_5
+  - str_tutorial_desc
+  - str_ingame_attack
+  - str_ingame_attack_range
+  - str_ingame_attack_speed
+  - str_ingame_health
+  - str_ingame_health_range
+  - str_ingame_attack_regen
+  - str_ingame_attack_criticalchance
+  - str_ingame_attack_criticaldamage
+  - str_ingame_attack_gacha
+  - str_ingame_attack_range_gacha
+  - str_ingame_attack_speed_gacha
+  - str_ingame_health_gacha
+  - str_ingame_health_range_gacha
+  - str_ingame_attack_regen_gacha
+  - str_ingame_attack_criticalchance_gacha
+  - str_ingame_attack_criticaldamage_gacha
+  - str_gacha_type_1
+  - str_gacha_type_2
+  - str_gacha_type_3
+  - str_gacha_type_4
+  - str_gacha_type_5
+  - weapon_name_1
+  - weapon_name_2
+  - weapon_name_3
+  - weapon_name_4
+  - weapon_name_5
+  - weapon_desc_1
+  - weapon_desc_2
+  - weapon_desc_3
+  - weapon_desc_4
+  - weapon_desc_5
+  - ingame_stage_wave
+  - str_posses
+  - str_noneposses
+  - unit_name_001
+  - unit_name_002
+  - unit_name_003
+  - unit_name_004
+  - unit_name_005
+  - unit_name_006
+  - unit_name_007
+  - unit_name_008
+  - unit_name_009
+  - unit_name_010
+  - unit_name_011
+  - unit_name_012
+  - unit_name_013
+  - unit_name_014
+  - unit_name_015
+  - unit_name_1001
+  - unit_name_1002
+  - unit_name_1003
+  - stage_boss_10001
+  - skill_1_name
+  - skill_2_name
+  - skill_3_name
+  - skill_4_name
+  - skill_5_name
+  - skill_6_name
+  - skill_7_name
+  - skill_8_name
+  - skill_9_name
+  - skill_10_name
+  - skill_11_name
+  - skill_1_desc
+  - skill_2_desc
+  - skill_3_desc
+  - skill_4_desc
+  - skill_5_desc
+  - skill_6_desc
+  - skill_7_desc
+  - skill_8_desc
+  - card_1_name
+  - card_2_name
+  - card_3_name
+  - card_4_name
+  - card_5_name
+  - card_6_name
+  - card_7_name
+  - card_8_name
+  - card_9_name
+  - card_10_name
+  - card_11_name
+  - card_12_name
+  - card_13_name
+  - card_14_name
+  - skill_sign_desc_1
+  - skill_sign_desc_2
+  - str_outgame_skill_attack_1
+  - str_outgame_skill_attack_2
+  - str_outgame_skill_attack_3
+  - str_outgame_skill_attack_4
+  - str_outgame_skill_attack_5
+  - str_outgame_skill_attack_6
+  - str_outgame_skill_attack_7
+  - str_outgame_skill_attack_8
+  - str_outgame_skill_attack_9
+  - unit_level_info
+  - str_ingame_skill_name_1
+  - str_ingame_skill_name_2
+  - str_ingame_skill_name_3
+  - str_ingame_skill_name_4
+  - str_ingame_skill_name_5
+  - str_ingame_skill_name_6
+  - str_ingame_skill_name_7
+  - str_ingame_skill_name_8
+  - str_ingame_skill_name_9
+  - str_ingame_skill_desc_name_1
+  - str_ingame_skill_desc_name_2
+  - str_ingame_skill_desc_name_3
+  - str_ingame_skill_desc_name_4
+  - str_ingame_skill_desc_name_5
+  - str_ingame_skill_desc_name_6
+  - str_ingame_skill_desc_name_7
+  - str_ingame_skill_desc_name_8
+  - str_ingame_skill_desc_name_9
+  - weapon_skill_name_1
+  - weapon_skill_name_2
+  - weapon_skill_name_3
+  - weapon_skill_name_4
+  - weapon_skill_name_5
+  - weapon_skill_name_6
+  - weapon_skill_name_7
+  - weapon_skill_name_8
+  - weapon_skill_name_9
+  - weapon_skill_name_10
+  - weapon_skill_name_11
+  - weapon_skill_name_12
+  - weapon_skill_name_13
+  - weapon_skill_name_14
+  - weapon_skill_desc_1
+  - weapon_skill_desc_2
+  - weapon_skill_desc_3
+  - weapon_skill_desc_4
+  - weapon_skill_desc_5
+  - weapon_skill_desc_6
+  - weapon_skill_desc_7
+  - weapon_skill_desc_8
+  - weapon_skill_desc_9
+  - weapon_skill_desc_10
+  - weapon_skill_desc_11
+  - weapon_skill_desc_12
+  - weapon_skill_desc_13
+  - weapon_skill_desc_14
+  mSecondKey: []
+  mDataList:
+  - _idx: str_stage_select_num
+    _ko: "\uC2A4\uD14C\uC774\uC9C0 {0}"
+    _en: STAGE {0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_stage_unlock_cond
+    _ko: "\uC2A4\uD14C\uC774\uC9C0 {0}\uC744 \uD074\uB9AC\uC5B4\uD558\uC138\uC694"
+    _en: Clear Stage {0} to unlock
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_stage_fail
+    _ko: "\uAC8C\uC784 \uACB0\uACFC"
+    _en: Game Results
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_stage_clear
+    _ko: "\uC2A4\uD14C\uC774\uC9C0 {0} \uC131\uACF5"
+    _en: STAGE {0} Completed
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_stage_highest
+    _ko: "\uCD5C\uACE0\uAE30\uB85D: {0} \uC6E8\uC774\uBE0C"
+    _en: 'Highest Wave: {0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_popup_home
+    _ko: "\uB85C\uBE44"
+    _en: HOME
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_wave_num
+    _ko: "\uC6E8\uC774\uBE0C:{0}"
+    _en: WAVE:{0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_clear_desc
+    _ko: "\uCD95\uD558\uD569\uB2C8\uB2E4!"
+    _en: Congratulations!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_giveup_desc
+    _ko: "\uD604\uC7AC\uAE4C\uC9C0 \uD68D\uB4DD\uD55C \uBCF4\uC0C1"
+    _en: Expected Rewards You Earned
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_unit_max
+    _ko: "\uBD80\uB300 ({0}/{1})"
+    _en: ARMY ({0}/{1})
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_name_add
+    _ko: "\uCD94\uAC00"
+    _en: ADD
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_name_power
+    _ko: "\uD798"
+    _en: POWER
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_name_health
+    _ko: "\uC0DD\uBA85\uB825"
+    _en: HEALTH
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_name_atkspd
+    _ko: "\uACF5\uACA9\uC18D\uB3C4"
+    _en: ATK SPD
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_inupgrade_unit_unlock
+    _ko: "\uC2E0\uADDC \uC720\uB2DB \uD574\uAE08!"
+    _en: Unlock new Unit!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_name_1
+    _ko: "\uC804\uC0AC"
+    _en: Warrior
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_name_2
+    _ko: "\uB300\uD3EC"
+    _en: Cannon
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_name_3
+    _ko: "\uD790\uB7EC"
+    _en: Healer
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_name_4
+    _ko: "\uD30C\uC774\uC5B4\uBC43"
+    _en: Firebat
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_name_5
+    _ko: "\uC0F7\uAC74"
+    _en: Shotgun
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ads_wait
+    _ko: "\uB85C\uB529\uC911..."
+    _en: Loading...
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_game_speed_normal
+    _ko: X 1
+    _en: X 1
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_game_speed_fast
+    _ko: X 1.5
+    _en: X 1.5
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_title
+    _ko: "\uC5F0\uAD6C\uC18C"
+    _en: LABS
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_unlock_atk
+    _ko: "\uC0C8 \uC5C5\uADF8\uB808\uC774\uB4DC \uD574\uAE08"
+    _en: 'Unlock new
+
+      Upgrade'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_1
+    _ko: "\uD798"
+    _en: Power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_2
+    _ko: "\uACF5\uACA9 \uC18D\uB3C4"
+    _en: Attack Speed
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_7
+    _ko: "\uCE58\uBA85\uD0C0\uC728"
+    _en: Critical %
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_8
+    _ko: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    _en: Critical Damage
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_9
+    _ko: "\uC774\uB3D9 \uC18D\uB3C4"
+    _en: Move Speed
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_10
+    _ko: "\uACF5\uACA9 \uBC94\uC704"
+    _en: Range
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_2_3
+    _ko: "\uC0DD\uBA85\uB825"
+    _en: Health
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_2_4
+    _ko: "\uB370\uBBF8\uC9C0 \uBC29\uC5B4"
+    _en: Block Damage
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_2_11
+    _ko: "\uBC29\uC5B4\uB825"
+    _en: Defense %
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_2_12
+    _ko: "\uC0DD\uBA85\uB825 \uC7AC\uC0DD"
+    _en: Health Regen
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_5
+    _ko: "\uCE90\uC2DC / \uD0AC"
+    _en: Cash / Kill
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_6
+    _ko: "\uAD11\uBB3C / \uD0AC"
+    _en: Mineral / Kill
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_14
+    _ko: "\uCE90\uC2DC / \uC6E8\uC774\uBE0C"
+    _en: Cash / Wave
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_15
+    _ko: "\uAD11\uBB3C / \uC6E8\uC774\uBE0C"
+    _en: Mineral / Wave
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_13
+    _ko: "\uC2DC\uC791 \uCE90\uC2DC"
+    _en: Start Cash
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_new
+    _ko: "\uC2E0\uADDC"
+    _en: NEW
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_info_multiple
+    _ko: "{1}\uBC30 \uC99D\uAC00"
+    _en: 'Increase {0}
+
+      by x {1}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_info_percent
+    _ko: "{1}% \uC99D\uAC00"
+    _en: 'Increase {0}
+
+      by + {1}%'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_info_add
+    _ko: "{1} \uC99D\uAC00"
+    _en: 'Increase {0}
+
+      by + {1}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_return_title
+    _ko: "\uBCF5\uADC0\uB97C \uD658\uC601\uD569\uB2C8\uB2E4!"
+    _en: WELCOME BACK!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_return_desc
+    _ko: "\uC774\uC804 \uC804\uD22C\uB97C \uC774\uC5B4 \uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    _en: Resume previous war?
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_return_wave
+    _ko: "\uC6E8\uC774\uBE0C : {0}"
+    _en: 'Wave : {0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_return_resume
+    _ko: "\uACC4\uC18D\uD558\uAE30"
+    _en: Resume
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_return_no
+    _ko: "\uC544\uB2C8\uC624"
+    _en: No
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_title
+    _ko: "\uC0C1\uC810"
+    _en: SHOP
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_buy
+    _ko: "\uC0C8\uB85C\uC6B4 \uCE74\uB4DC \uAD6C\uB9E4"
+    _en: BUY NEW CARD
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_1_16
+    _ko: "\uD22C\uC0AC\uCCB4 \uC18D\uB3C4"
+    _en: Projectile Speed
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_17
+    _ko: "\uCD5C\uB300 \uC720\uB2DB \uC218"
+    _en: Max Unit
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_title_pakage
+    _ko: "\uBAA8\uB4E0 \uBCF4\uB108\uC2A4\uB294 \uC911\uCCA9\uB429\uB2C8\uB2E4!"
+    _en: All mineral bonuses are multiplied
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_1_1
+    _ko: "\uBAA8\uB4E0 \uCE90\uC2DC"
+    _en: all cash earned
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_name_3_2_1
+    _ko: "\uBAA8\uB4E0 \uBBF8\uB124\uB784"
+    _en: all mineral earned
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_package_101
+    _ko: "\uC18D\uB3C4 \uC601\uAD6C \uC99D\uAC00"
+    _en: Speed Up Forever
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_package_102
+    _ko: "\uC2A4\uD0C0\uD130 \uD328\uD0A4\uC9C0"
+    _en: Starter Package
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_package_103
+    _ko: "\uD504\uB85C \uD328\uD0A4\uC9C0"
+    _en: Pro Package
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_package_104
+    _ko: "\uAD11\uACE0\uC81C\uAC70 \uD328\uD0A4\uC9C0"
+    _en: No Ads Package
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_desc_package_101
+    _ko: "\uC601\uAD6C\uC801\uC73C\uB85C \uAC8C\uC784 \uC18D\uB3C4\uAC00 1.5\uBC30
+      \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: x1.5 game speed forever.
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_desc_package_102
+    _ko: "\uC601\uAD6C\uC801\uC73C\uB85C \uBAA8\uB4E0 \uAD11\uBB3C\uC744 2\uBC30
+      \uD68D\uB4DD\uD569\uB2C8\uB2E4."
+    _en: x2 all minerals earned forever.
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_desc_package_103
+    _ko: "\uC601\uAD6C\uC801\uC73C\uB85C \uBAA8\uB4E0 \uAD11\uBB3C\uC744 3\uBC30
+      \uD68D\uB4DD\uD569\uB2C8\uB2E4."
+    _en: x3 all minerals earned forever.
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_desc_package_104
+    _ko: "\uC601\uAD6C\uC801\uC73C\uB85C \uAC15\uC81C \uAD11\uACE0\uB97C \uC81C\uAC70\uD569\uB2C8\uB2E4."
+    _en: remove forced ads forever
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_levelup_need
+    _ko: '{0}/{1}'
+    _en: '{0}/{1}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_activated
+    _ko: "\uD65C\uC131\uD654 {0}/{1}"
+    _en: ACTIVATED {0}/{1}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_inventory
+    _ko: "\uC778\uBCA4\uD1A0\uB9AC"
+    _en: INVENTORY
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_currency_ticket
+    _ko: "\uD2F0\uCF13"
+    _en: TICKET
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_name_currency_gem
+    _ko: "\uC82C"
+    _en: GEM
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_accent_value
+    _ko: "\uCD5C\uACE0 \uAC00\uCE58!"
+    _en: Best Value!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_product_efficiency
+    _ko: "{0}% \uBCF4\uB108\uC2A4"
+    _en: '{0}% Bonus'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_vibrate
+    _ko: "\uC9C4\uB3D9"
+    _en: Vibrate
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_bgm
+    _ko: "\uBC30\uACBD\uC74C"
+    _en: BGM
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_sfx
+    _ko: "\uD6A8\uACFC\uC74C"
+    _en: SFX
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_restore
+    _ko: "\uAD6C\uB9E4 \uBCF5\uC6D0"
+    _en: Restore Purchase
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_shop_reward_ads_time
+    _ko: hh:mm:ss
+    _en: hh:mm:ss
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_slot_unlock
+    _ko: "\uC0C8\uB85C\uC6B4 \uC2AC\uB86F \uAD6C\uB9E4"
+    _en: Unlock New Slot
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_title
+    _ko: "\uC635\uC158"
+    _en: Option
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_on
+    _ko: "\uCF1C\uAE30"
+    _en: On
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_option_off
+    _ko: "\uB044\uAE30"
+    _en: Off
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_stage_start
+    _ko: "\uC2DC\uC791"
+    _en: START
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_lobby
+    _ko: "\uBC30\uD2C0"
+    _en: BATTLE
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_quit
+    _ko: "\uC885\uB8CC"
+    _en: QUIT
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_continue
+    _ko: "\uC774\uC5B4\uD558\uAE30"
+    _en: CONTINUE
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_type_atk
+    _ko: "\uACF5\uACA9"
+    _en: ATTACK
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_type_def
+    _ko: "\uBC29\uC5B4"
+    _en: DEFFENCE
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_type_util
+    _ko: "\uBCF4\uC870"
+    _en: UTILITY
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_clear_title
+    _ko: "\uC131\uACF5!"
+    _en: SUCCESS!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_fail_title
+    _ko: "\uC2E4\uD328"
+    _en: FAIL
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_cards
+    _ko: "\uCE74\uB4DC"
+    _en: CARDS
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_title_tutorial
+    _ko: "\uD658\uC601 \uC120\uBB3C"
+    _en: WELCOME GIFT
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_popup_tutorial_btn
+    _ko: "\uBC1B\uAE30"
+    _en: GET
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_desc_1
+    _ko: '{0}'
+    _en: '{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_desc_2
+    _ko: '{0}%'
+    _en: '{0}%'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_desc_3
+    _ko: +{0}
+    _en: +{0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_desc_4
+    _ko: +{0}%
+    _en: +{0}%
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_labs_upgrade_desc_5
+    _ko: x{0}
+    _en: x{0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_giveup_title
+    _ko: "\uD3EC\uAE30\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+    _en: Give up?
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_time_hour
+    _ko: "\uC2DC"
+    _en: h
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_time_minute
+    _ko: "\uBD84"
+    _en: m
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_time_second
+    _ko: "\uCD08"
+    _en: s
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_1
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uD798\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_2
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uACF5\uACA9 \uC18D\uB3C4\uAC00 \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: Increase armies attack speed
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_7
+    _ko: "\uACF5\uACA9 \uC720\uB2DB\uC758 \uACF5\uACA9\uC5D0 \uCE58\uBA85\uD0C0\uAC00
+      \uBC1C\uB3D9\uD560 \uD655\uB960\uC774 \uC0DD\uAE41\uB2C8\uB2E4."
+    _en: Possible critical hit
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_8
+    _ko: "\uCE58\uBA85\uD0C0 \uBC1C\uB3D9 \uC2DC \uD53C\uD574\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_9
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uC774\uB3D9 \uC18D\uB3C4\uAC00 \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_10
+    _ko: "\uC6D0\uAC70\uB9AC \uC720\uB2DB\uC758 \uACF5\uACA9 \uBC94\uC704\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_2_3
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uC0DD\uBA85\uB825\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_2_4
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uD53C\uD574 \uAC10\uC18C\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_2_11
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uD53C\uD574 \uBC29\uC5B4\uC728\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_2_12
+    _ko: "\uBAA8\uB4E0 \uC720\uB2DB\uC758 \uC0DD\uBA85\uB825 \uC7AC\uC0DD\uB7C9\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_3_1_1
+    _ko: "\uBAA8\uB4E0 \uCE90\uC2DC \uD68D\uB4DD\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_3_1_2
+    _ko: "\uBAA8\uB4E0 \uBBF8\uB124\uB784 \uD68D\uB4DD\uB7C9\uC774 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_3_13
+    _ko: "\uAC8C\uC784 \uC2DC\uC791 \uC2DC \uCE90\uC2DC \uBCF4\uC720\uB7C9\uC774
+      \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_1_16
+    _ko: "\uC6D0\uAC70\uB9AC \uC720\uB2DB\uC758 \uD22C\uC0AC\uCCB4 \uC18D\uB3C4\uAC00
+      \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_3_17
+    _ko: "\uC720\uB2DB \uBCF4\uC720 \uCD5C\uB300\uCE58\uAC00 \uC99D\uAC00\uD569\uB2C8\uB2E4."
+    _en: Increase armies power
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_max
+    _ko: "\uCD5C\uB300 \uB808\uBCA8 : <color=#00AA54>Lv {0}</color>"
+    _en: 'Max : <color=#00AA54>Lv {0}</color>'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target
+    _ko: "\uC801\uC6A9 \uB300\uC0C1 : <color=#00AA54>{0}</color>"
+    _en: 'Target : <color=#00AA54> {0}</color>'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_all
+    _ko: "\uBAA8\uB450"
+    _en: All
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_atk
+    _ko: "\uACF5\uACA9 \uC720\uB2DB"
+    _en: Attack armies
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_close
+    _ko: "\uADFC\uC811 \uC720\uB2DB"
+    _en: Close range armies
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_long
+    _ko: "\uC6D0\uAC70\uB9AC \uC720\uB2DB"
+    _en: Long range armies
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_cash
+    _ko: "\uBAA8\uB4E0 \uCE90\uC26C"
+    _en: All Cash
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_card_desc_target_mineral
+    _ko: "\uBAA8\uB4E0 \uBBF8\uB124\uB784"
+    _en: All Mineral
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_new_unit_desc
+    _ko: "\uC0C8\uB85C\uC6B4 \uC720\uB2DB"
+    _en: NEW UNIT
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_unit_choose_desc
+    _ko: "\uC0C8\uB85C\uC6B4 \uC720\uB2DB\uC744 \uC120\uD0DD\uD558\uC138\uC694!"
+    _en: Choose New Unit!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_desc_1
+    _ko: "\uADFC\uC811\uD55C \uC801\uC744 \uACF5\uACA9"
+    _en: Attacks enemy up close
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_desc_2
+    _ko: "\uBA40\uB9AC \uC788\uB294 \uC801\uC744 \uACF5\uACA9"
+    _en: Attacks enemy from a distance
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_desc_3
+    _ko: "\uC544\uAD70 \uC720\uB2DB\uC744 \uCE58\uB8CC"
+    _en: Heals an allied unit
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_desc_4
+    _ko: "\uADFC\uC811\uD55C \uC801\uC5D0\uAC8C \uD654\uC5FC \uACF5\uACA9"
+    _en: Breathes fire at a close-range target
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_army_desc_5
+    _ko: "\uC911\uAC70\uB9AC\uC5D0 \uC788\uB294 \uC801\uC744 \uACF5\uACA9"
+    _en: Fires a shotgun at mid-range target
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_tutorial_desc
+    _ko: "\uCCAB \uC120\uD0DD\uC73C\uB85C \uC88B\uC2B5\uB2C8\uB2E4!"
+    _en: Good choice at first!
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack
+    _ko: "\uACF5\uACA9\uB825"
+    _en: ATTACK
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_range
+    _ko: "\uACF5\uACA9\uBC94\uC704"
+    _en: 'ATTACK
+
+      RANGE'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_speed
+    _ko: "\uACF5\uACA9\uC18D\uB3C4"
+    _en: 'ATTACK
+
+      SPEED'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_health
+    _ko: "\uCCB4\uB825"
+    _en: HEALTH
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_health_range
+    _ko: "\uC7AC\uC0DD\uC131"
+    _en: 'HEALTH
+
+      REGEN'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_regen
+    _ko: "\uACF5\uACA9\uC7A5\uC804"
+    _en: 'ATTACK
+
+      REGEN'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_criticalchance
+    _ko: "\uD06C\uB9AC\uD2F0\uCEEC\uD655\uB960"
+    _en: 'ATTACK
+
+      CRITICAL
+
+      CHANCE'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_criticaldamage
+    _ko: "\uD06C\uB9AC\uD2F0\uCEEC\uB370\uBBF8\uC9C0"
+    _en: 'ATTACK
+
+      CRITICAL
+
+      DAMAGE'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_gacha
+    _ko: "\uACF5\uACA9\uB825:{0}"
+    _en: ATTACK:{0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_range_gacha
+    _ko: "\uACF5\uACA9\uBC94\uC704:{0}"
+    _en: 'ATTACK
+
+      RANGE:{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_speed_gacha
+    _ko: "\uACF5\uACA9\uC18D\uB3C4:{0}"
+    _en: 'ATTACK
+
+      SPEED:{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_health_gacha
+    _ko: "\uCCB4\uB825:{0}"
+    _en: HEALTH:{0}
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_health_range_gacha
+    _ko: "\uCCB4\uB825\uC7AC\uC0DD\uC131:{0}"
+    _en: 'HEALTH
+
+      REGEN:{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_regen_gacha
+    _ko: "\uACF5\uACA9\uC7A5\uC804\uC18D\uB3C4:{0}"
+    _en: 'ATTACK
+
+      REGEN{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_criticalchance_gacha
+    _ko: "\uD06C\uB9AC\uD2F0\uCEEC\uD655\uB960:{0}"
+    _en: 'ATTACK
+
+      CRITICAL
+
+      CHANCE:{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_attack_criticaldamage_gacha
+    _ko: "\uD06C\uB9AC\uD2F0\uCEEC\uB370\uBBF8\uC9C0:{0}"
+    _en: 'ATTACK
+
+      CRITICAL
+
+      DAMAGE:{0}'
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_gacha_type_1
+    _ko: "\uACF5\uACA9\uC18D\uB3C4 {0}\uBC30 \uC99D\uAC00!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_gacha_type_2
+    _ko: "\uC7A5\uC804\uC18D\uB3C4 {0}\uBC30 \uC99D\uAC00!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_gacha_type_3
+    _ko: "\b\uD06C\uB9AC\uD2F0\uCEEC {0}%\uD655\uB960 \uC99D\uAC00!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_gacha_type_4
+    _ko: "\b\uCD1D\uC54C\uAC1C\uC218 {0}\uBC30 \uC99D\uAC00!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_gacha_type_5
+    _ko: "\b\uACF5\uACA9\uB825 {0}\uBC30 \uC99D\uAC00!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_name_1
+    _ko: "\uD478\uB978 \uB808\uC774\uC800"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_name_2
+    _ko: "\uB178\uB780 \uB808\uC774\uC800"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_name_3
+    _ko: "\uBD84\uD64D \uB808\uC774\uC800"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_name_4
+    _ko: "\uC5F0\uC1C4 \uB808\uC774\uC800"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_name_5
+    _ko: "\uC774\uC0C1\uD55C \uB808\uC774\uC800"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_desc_1
+    _ko: "\uC801\uC744 \uCD94\uC801\uD558\uB294 \uB808\uC774\uC800 \uD55C\uAC1C\uC0DD\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_desc_2
+    _ko: "\uC8FC\uBCC0\uC744 \uD68C\uC804\uD558\uB294 \uB808\uC774\uC800 \uD55C\uAC1C\uC0DD\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_desc_3
+    _ko: "\uC801\uC744 \uAD00\uD1B5\uD558\uB294 \uCD1D\uC54C \uD55C\uAC1C\uC0DD\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_desc_4
+    _ko: "\uB9DE\uC73C\uBA74 \uC801\uC774 \uB290\uB824\uC9C0\uB294 \uCD1D\uC54C \uD55C\uAC1C\uC0DD\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_desc_5
+    _ko: "\uC801\uC744 \uB9DE\uC73C\uBA74 \uC8FC\uBCC0\uC774 \uD3ED\uD314\uD55C\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: ingame_stage_wave
+    _ko: WAVE:{0}
+    _en: WAVE:{0}
+    _ja: WAVE:{0}
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_posses
+    _ko: "\uBCF4\uC720"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_noneposses
+    _ko: "\uBBF8\uBCF4\uC720"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_001
+    _ko: "\uB860"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_002
+    _ko: "\uB4DC\uB808\uC774\uD06C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_003
+    _ko: "\uD30C\uC774\uB128"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_004
+    _ko: "\uAC00\uB80C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_005
+    _ko: "\uB85C\uB354"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_006
+    _ko: "\uC54C\uB374"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_007
+    _ko: "\uCF00\uC774\uB514"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_008
+    _ko: "\uBC14\uB80C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_009
+    _ko: "\uBE0C\uB77C\uC774\uC5B8"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_010
+    _ko: "\uC774\uBAAC"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_011
+    _ko: "\uCF00\uC77C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_012
+    _ko: "\uB2E4\uC778"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_013
+    _ko: "\uC5D0\uBC18\uB4DC"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_014
+    _ko: "\uD1A0\uB9B0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_015
+    _ko: "\uBE0C\uB95C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_1001
+    _ko: "\b\uAC00\uC624\uB9B0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_1002
+    _ko: "\uAE30\uB8EC"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_name_1003
+    _ko: "\uACE8\uB77C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: stage_boss_10001
+    _ko: "\uBE14\uB8E8 \uC2AC\uB77C\uC784"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_1_name
+    _ko: "\uAC80\uC758 \uBD84\uB178"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_2_name
+    _ko: "\uBC29\uD328 \uAC15\uD0C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_3_name
+    _ko: "\uC6A9\uB9F9\uD55C \uC77C\uACA9"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_4_name
+    _ko: "\uC2E0\uC131\uD55C \uAC15\uD0C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_5_name
+    _ko: "\uC218\uD638\uC790\uC758 \uC790\uC138"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_6_name
+    _ko: "\uCCA0\uC758 \uC758\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_7_name
+    _ko: "\uC2E0\uC131\uD55C \uBCF4\uD638"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_8_name
+    _ko: "\uC804\uD22C \uD568\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_9_name
+    _ko: "\uC804\uC0AC\uC758 \uACB0\uC758"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_10_name
+    _ko: "\uB178\uD68D"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_11_name
+    _ko: "\uC57D\uD0C8"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_1_desc
+    _ko: "<color=#F1FF00>{0}\uD37C\uC13C\uD2B8 </color> \uD655\uB960\uB85C <color=#F1FF00>{1}\uD53C\uD574
+      </color>\uC744 \uAC00\uD569\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_2_desc
+    _ko: "<color=#F1FF00>{0}\uD37C\uC13C\uD2B8 </color> \uD655\uB960\uB85C <color=#F1FF00>{1}\uCD08\uAC04
+      \uC2A4\uD134 </color>\uC744 \uAC00\uD569\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_3_desc
+    _ko: "<color=#F1FF00>{0}\uD37C\uC13C\uD2B8 </color> \uD655\uB960\uB85C <color=#F1FF00>{1}\uCD08\uAC04</color>\uC2AC\uB85C\uC6B0\uB97C
+      \uC2DC\uD0B5\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_4_desc
+    _ko: "\uBAA8\uB4E0 \uC801\uC758 \uBC29\uC5B4\uB825\uC744<color=#F1FF00>{0}</color>\uB97C
+      \uAC10\uC18C \uC2DC\uD0B5\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_5_desc
+    _ko: "\uBAA8\uB4E0 \uC544\uAD70\uC758 \uACF5\uACA9\uB825\uC744 <color=#F1FF00>{0}%</color>
+      \uC99D\uAC00 \uC2DC\uD0B5\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_6_desc
+    _ko: "\uBAA8\uB4E0 \uC801\uC758 \uC774\uB3D9\uC18D\uB3C4\uB97C <color=#F1FF00>{0}</color>
+      \uB454\uD654\uC2DC\uD0B5\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_7_desc
+    _ko: "\uACF5\uACA9 \uC2DC  <color=#F1FF00>{0}</color>% \uD655\uB960\uB85C \uCF54\uC778\uC744 
+      <color=#F1FF00>{1}</color>\uD68D\uB4DD \uD569\uB2C8\uB2E4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_8_desc
+    _ko: "\uC18C\uD658 \uC2DC \uCF54\uC778\uC744  <color=#F1FF00>{0}</color>\uD68D\uB4DD
+      \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_1_name
+    _ko: "\uACF5\uACA9\uC18D\uB3C4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_2_name
+    _ko: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_3_name
+    _ko: "\uCE58\uBA85\uD0C0 \uD655\uB960"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_4_name
+    _ko: "\uD53C\uD574 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_5_name
+    _ko: "\uC2A4\uD0AC \uBC1C\uC0DD \uD655\uB960 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_6_name
+    _ko: "\uAE30\uC808 \uC9C0\uC18D\uC2DC\uAC04 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_7_name
+    _ko: "\uBCF4\uC2A4\uC5D0\uAC8C \uAC00\uD558\uB294 \uD53C\uD574 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_8_name
+    _ko: "\uC6E8\uC774\uBE0C\uC758 \uBCF4\uC720\uD55C \uCF54\uC778\uC758 \uAC1C\uC218
+      \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_9_name
+    _ko: "\uC5D0\uD53D \uB3C4\uBC15 \uD655\uB960 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_10_name
+    _ko: "\uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uB454\uD654\uD6A8\uACFC \uC801\uC6A9"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_11_name
+    _ko: "\uC720\uB2DB \uCC98\uCE58 \uC2DC \uCF54\uC778 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_12_name
+    _ko: "\uCD5C\uB300 \uBCF4\uC720 \uAC00\uB2A5\uD55C \uC720\uB2DB \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_13_name
+    _ko: "\uB3C4\uBC15 \uC2E4\uD328 \uC2DC \uBE44\uC6A9 \uBCF5\uAD6C \uD655\uB960"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: card_14_name
+    _ko: "\uC720\uB2DB \uB3C4\uBC15 \uD655\uB960 \uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_sign_desc_1
+    _ko: +{0}
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: skill_sign_desc_2
+    _ko: '{0}%'
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_1
+    _ko: "\uAC80\uC758\uBD84\uB178 \uC2A4\uD0AC\uC774 \uD574\uAE08 \uB429\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_2
+    _ko: "\uBC29\uD328\uAC15\uD0C0 \uC2A4\uD0AC\uC774 \uD574\uAE08 \uB429\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_3
+    _ko: "\uC218\uD638\uC790\uC758 \uC790\uC138\uAC00 \uD574\uAE08 \uB429\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_4
+    _ko: "\uC6A9\uB9F9\uD55C \uC77C\uACA9\uC774 \uD574\uAE08 \uB429\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_5
+    _ko: "\uACF5\uACA9\uB825\uC774 {0}% \uC99D\uAC00 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_6
+    _ko: "\uACF5\uACA9\uC18D\uB3C4 {0}% \uC99D\uAC00 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_7
+    _ko: "\uC2A4\uD0AC\uD53C\uD574 {0}% \uC99D\uAC00 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_8
+    _ko: "\uC2A4\uD0AC\uD53C\uD574 {0}% \uAC10\uC18C \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_outgame_skill_attack_9
+    _ko: "\uBCF4\uC2A4\uD53C\uD574 {0}% \uC99D\uAC00 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: unit_level_info
+    _ko: "\uB808\uBCA8 {0}"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_1
+    _ko: "\uAC80\uC758 \uBD84\uB178"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_2
+    _ko: "\b\uBC29\uD328 \uAC15\uD0C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_3
+    _ko: "\uC218\uD638\uC790\uC758 \uC790\uC138"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_4
+    _ko: "\uC6A9\uB9F9\uD55C \uC77C\uACA9"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_5
+    _ko: "\uACF5\uACA9\uB825\uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_6
+    _ko: "\b\uACF5\uACA9\uC18D\uB3C4\uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_7
+    _ko: "\uC2A4\uD0AC\uD53C\uD574\uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_8
+    _ko: "\uC2A4\uD0AC\uCFE8\uD0C0\uC784\uAC10\uC18C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_name_9
+    _ko: "\uBCF4\uC2A4\uC785\uD788\uB294\uD53C\uD574\uC99D\uAC00"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_1
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_2
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_3
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_4
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_5
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_6
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_7
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_8
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: str_ingame_skill_desc_name_9
+    _ko: "{0}\uD37C\uC13C\uD2B8 \uD655\uB960\uB85C {1} \uB370\uBBF8\uC9C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_1
+    _ko: "\uBA54\uD14C\uC624"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_2
+    _ko: "\uBB3C\uC624\uB984"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_3
+    _ko: "\uC5B4\uC2A4\uD018\uC774\uD06C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_4
+    _ko: "\uD1A0\uB124\uC774\uB3C4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_5
+    _ko: "\uBE5B\uC758\uAD6C\uCCB4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_6
+    _ko: "\uC804\uC0AC\uC758 \uD568\uC131"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_7
+    _ko: "\uC804\uC0AC\uC758 \uC2EC\uC7A5"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_8
+    _ko: "\uC804\uC0AC\uC758 \uB208"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_9
+    _ko: "\uC804\uC0AC\uC758 \uB9C8\uC74C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_10
+    _ko: "\uAC15\uD0C0"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_11
+    _ko: "\uD589\uC6B4 \uB808\uC5B4"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_12
+    _ko: "\uD589\uC6B4 \uC720\uB2C8\uD06C"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_13
+    _ko: "\uC5D0\uB108\uC9C0 \uD68D\uB4DD!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_name_14
+    _ko: "\b\uB300\uD3ED\uBC1C!"
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_1
+    _ko: "\uC801\uC5D0\uAC8C \uB79C\uB364\uC73C\uB85C \uBA54\uD14C\uC624\uB97C \uC18C\uD658\uD558\uC5EC
+      {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_2
+    _ko: "\uC801\uC5D0\uAC8C \uB79C\uB364\uC73C\uB85C \uBB3C\uC624\uB984\uC744 \uBC1C\uC0AC\uD558\uC5EC
+      {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_3
+    _ko: "\uC801\uC5D0\uAC8C \uB79C\uB364\uC73C\uB85C \uB545\uC774 \uAC08\uB77C\uC9C0\uBA70
+      {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_4
+    _ko: "\b\uB79C\uB364\uC73C\uB85C \uC801\uC5D0\uAC8C \uC9C0\uC18D\uC801\uC73C\uB85C
+      {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_5
+    _ko: "\uC801\uC5D0\uAC8C \uB79C\uB364\uC73C\uB85C \uBE5B\uC758\uAD6C\uCCB4\uB97C
+      \uC18C\uD658\uD558\uC5EC {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_6
+    _ko: "\uACF5\uACA9\uB825\uC774 {0}% \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_7
+    _ko: "\uACF5\uACA9\uC18D\uB3C4\uAC00 {0}% \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_8
+    _ko: "\uCE58\uBA85\uD0C0\uC728 {0}%\uAC00 \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_9
+    _ko: "\uCE58\uBA85\uD0C0 \uB370\uBBF8\uC9C0\uAC00 {0}% \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_10
+    _ko: "\uBAAC\uC2A4\uD130 \uCC98\uCE58\uC2DC {0}\uC758 \uB3C8\uC744 \uCD94\uAC00\uB85C
+      \uD68D\uB4DD \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_11
+    _ko: "\uB79C\uB364\uC73C\uB85C \uB808\uC5B4 \uC720\uB2DB\uC744 \uC18C\uD658 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_12
+    _ko: "\uB79C\uB364\uC73C\uB85C \uC5D0\uD53D \uC720\uB2DB\uC744 \uC18C\uD658 \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_13
+    _ko: "\uC989\uC2DC {0}\uC758 \uC5D0\uB108\uC9C0\uB97C \uD68D\uB4DD \uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 
+  - _idx: weapon_skill_desc_14
+    _ko: "\uC801\uC5D0\uAC8C \uB79C\uB364\uC73C\uB85C \uD3ED\uBC1C\uC744 \uC77C\uC73C\uCF1C
+      {0}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD799\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+    _es: 
+    _ptbr: 
+    _th: 
+    _tw: 
+    _vi: 
+    _bg: 
+    _cn: 
+    _cs: 
+    _da: 
+    _nl: 
+    _et: 
+    _fi: 
+    _fr: 
+    _de: 
+    _el: 
+    _hu: 
+    _id: 
+    _it: 
+    _lv: 
+    _lt: 
+    _no: 
+    _pl: 
+    _pt: 
+    _ro: 
+    _ru: 
+    _sk: 
+    _sl: 
+    _sv: 
+    _tr: 
+    _ua: 

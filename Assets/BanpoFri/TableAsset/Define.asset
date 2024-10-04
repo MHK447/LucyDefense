@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae061b15c1474e4481773da0cbb384c, type: 3}
+  m_Name: Define
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - end_unit_count
+  - unit_max_count
+  - initial_cost_start
+  - inital_increase_count
+  - start_battle_energymoney
+  - ticket_monster_cooltime
+  - ticket_unit_time
+  - boss_unit_time
+  - enemy_normal_base_hp
+  - enemy_wave_increase_hp
+  - boss_gacha_coin_base
+  - boss_gacha_coin_increaes
+  - normalrare_base_cost
+  - epic_base_cost
+  - legendmythic_upgrade_cost
+  - summon_percent_base
+  - card_upgrade_cost
+  - unit_death_ratio
+  mSecondKey: []
+  mDataList:
+  - _index: end_unit_count
+    _value: 100
+  - _index: unit_max_count
+    _value: 20
+  - _index: initial_cost_start
+    _value: 20
+  - _index: inital_increase_count
+    _value: 2
+  - _index: start_battle_energymoney
+    _value: 100
+  - _index: ticket_monster_cooltime
+    _value: 60
+  - _index: ticket_unit_time
+    _value: 45
+  - _index: boss_unit_time
+    _value: 45
+  - _index: enemy_normal_base_hp
+    _value: 50
+  - _index: enemy_wave_increase_hp
+    _value: 250
+  - _index: boss_gacha_coin_base
+    _value: 2
+  - _index: boss_gacha_coin_increaes
+    _value: 2
+  - _index: normalrare_base_cost
+    _value: 30
+  - _index: epic_base_cost
+    _value: 50
+  - _index: legendmythic_upgrade_cost
+    _value: 2
+  - _index: summon_percent_base
+    _value: 100
+  - _index: card_upgrade_cost
+    _value: 100
+  - _index: unit_death_ratio
+    _value: 45

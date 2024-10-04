@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b8d03edeaa524711a218e61b89991bd, type: 3}
+  m_Name: PlayerUnitInfo
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  mSecondKey: []
+  mDataList:
+  - _unit_idx: 1
+    _attack: 10
+    _attackrange: 550
+    _criticalchance: 0
+    _attackspeed: 100
+    _grade: 1
+    _prefab: Unit001
+    _icon: Unit001_Img
+    _name: unit_name_001
+    _unit_skill: 010000000a000000
+    _unit_skil_percent: 1e00000000000000
+    _unit_skil_value: c80000000a000000
+  - _unit_idx: 2
+    _attack: 10
+    _attackrange: 550
+    _criticalchance: 0
+    _attackspeed: 100
+    _grade: 1
+    _prefab: Unit002
+    _icon: Unit002_Img
+    _name: unit_name_002
+    _unit_skill: 02000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: 01000000
+  - _unit_idx: 3
+    _attack: 10
+    _attackrange: 550
+    _criticalchance: 0
+    _attackspeed: 100
+    _grade: 1
+    _prefab: Unit003
+    _icon: Unit003_Img
+    _name: unit_name_003
+    _unit_skill: 03000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: 1e000000
+  - _unit_idx: 4
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit004
+    _icon: Unit004_Img
+    _name: unit_name_004
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 5
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit005
+    _icon: Unit005_Img
+    _name: unit_name_005
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 6
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit006
+    _icon: Unit006_Img
+    _name: unit_name_006
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 7
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit007
+    _icon: Unit007_Img
+    _name: unit_name_007
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 8
+    _attack: 10
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 1
+    _prefab: Unit008
+    _icon: Unit008_Img
+    _name: unit_name_008
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 9
+    _attack: 10
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 1
+    _prefab: Unit009
+    _icon: Unit009_Img
+    _name: unit_name_009
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 10
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit010
+    _icon: Unit010_Img
+    _name: unit_name_010
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 11
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit011
+    _icon: Unit011_Img
+    _name: unit_name_011
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 12
+    _attack: 40
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 2
+    _prefab: Unit012
+    _icon: Unit012_Img
+    _name: unit_name_012
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 13
+    _attack: 100
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 3
+    _prefab: Unit013
+    _icon: Unit013_Img
+    _name: unit_name_013
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 14
+    _attack: 100
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 3
+    _prefab: Unit014
+    _icon: Unit014_Img
+    _name: unit_name_014
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000
+  - _unit_idx: 15
+    _attack: 100
+    _attackrange: 550
+    _criticalchance: 25
+    _attackspeed: 100
+    _grade: 3
+    _prefab: Unit015
+    _icon: Unit015_Img
+    _name: unit_name_015
+    _unit_skill: 01000000
+    _unit_skil_percent: 1e000000
+    _unit_skil_value: c8000000

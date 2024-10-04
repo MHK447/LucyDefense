@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225010b13b6ca403983d7d394f2cc7c6, type: 3}
+  m_Name: SkillCardInfo
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  mSecondKey: []
+  mDataList:
+  - _skill_idx: 1
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Arrow
+    _desc_name: card_1_name
+  - _skill_idx: 2
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Axe
+    _desc_name: card_2_name
+  - _skill_idx: 3
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Attack
+    _desc_name: card_3_name
+  - _skill_idx: 4
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Buff
+    _desc_name: card_4_name
+  - _skill_idx: 5
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Bad_Immune
+    _desc_name: card_5_name
+  - _skill_idx: 6
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Boss
+    _desc_name: card_6_name
+  - _skill_idx: 7
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Moneybag
+    _desc_name: card_7_name
+  - _skill_idx: 8
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Dice
+    _desc_name: card_8_name
+  - _skill_idx: 9
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Control_Fw
+    _desc_name: card_9_name
+  - _skill_idx: 10
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Moneybag
+    _desc_name: card_10_name
+  - _skill_idx: 11
+    _skill_base_value: 10
+    _skill_value: 10
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Friend_Add
+    _desc_name: card_11_name
+  - _skill_idx: 12
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Dice
+    _desc_name: card_12_name
+  - _skill_idx: 13
+    _skill_base_value: 100
+    _skill_value: 50
+    _sign_desc: skill_sign_desc_2
+    _image: Pictoicon_Dice
+    _desc_name: card_13_name

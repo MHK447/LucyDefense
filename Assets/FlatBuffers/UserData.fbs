@@ -1,0 +1,57 @@
+namespace BanpoFri.Data;
+
+
+
+table UserData {
+  money:string;
+  storemoney:string;
+  cash:int = 0;
+  material:int = 0;
+  facilitydatas:[FacilityData];
+  lastlogintime:long = 0;
+  curplaydatetime:long = 0;
+  stageidx:int = 1;
+  energymoney:string;
+  gachacoin:int = 0;
+  unitcarddatas:[UnitCardData];
+  skillcarddatas:[SkillCardData]; 
+  outgameunitupgradedatas:[OutGameUnitUpgradeData];
+  highwaveidx:int = 1;	
+}
+
+table FacilityData {
+  groundidx:int = 0;
+  facilitygrade:int = 0; 
+  landstatuseventidx:int = 0;
+  landbenefittime:long = 0;
+  iseventground:bool = false;
+  isbenefit:bool = false;
+}
+
+
+
+table SkillCardData
+{
+   skillidx:int = 0;
+   level:int = 0;
+} 
+
+
+
+table UnitCardData {
+   unitidx:int = 0;
+   level:int = 0;
+   cardcount:int = 0;
+}
+
+
+table OutGameUnitUpgradeData
+{
+   unitidx:int = 0;
+   unitlevel:int = 0;
+   cardcount:int = 0;
+} 
+
+
+
+root_type UserData;
